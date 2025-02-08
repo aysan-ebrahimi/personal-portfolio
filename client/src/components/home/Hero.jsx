@@ -5,8 +5,8 @@ import { TfiEmail } from "react-icons/tfi";
 import img from "../../constants/photos/Img.png";
 const Hero = () => {
   return (
-    <div className="basis-4/5 ml-60 p-[80px] flex items-center">
-      <div className="grid grid-cols-2 gap-4">
+    <div className="lg:basis-4/5 lg:ml-60 lg:p-8 px-10 py-20 flex items-center justify-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex flex-col space-y-4 font-ibm p-4 content-center text-black">
           <h1 className="text-[6.375rem]/[90px] ">
             MY NAME IS <span className="font-bold">JACOB JONES...</span>

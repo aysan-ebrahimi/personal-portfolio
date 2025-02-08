@@ -16,13 +16,13 @@ const Services = () => {
     setShowContent((current) => ({ ...current, [id]: !current[id] }));
   };
   return (
-    <div className="flex h-full">
+    <div className="flex flex-col lg:flex-row h-full">
       <Sidebar />
-      <div className="basis-4/5 ml-60 font-ibm p-[80px]">
+      <div className="lg:basis-4/5 lg:ml-60 lg:p-8 px-10 py-20 lg:flex flex-col items-center justify-center font-ibm">
         <span className="text-[0.956rem]/[1.275rem] font-semiBold italic">
           Service
         </span>
-        <h1 className="text-[2.57rem]/[2.975rem] font-bold">MY SPECIALTIES</h1>
+        <h1 className="text-[2.57rem]/[2.975rem] font-bold mb-20">MY SPECIALTIES</h1>
         <ul>
           {services.map((item) => (
             <li

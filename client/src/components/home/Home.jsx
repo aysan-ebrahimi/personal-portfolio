@@ -4,7 +4,7 @@ import Hero from "./Hero";
 
 const Home = () => {
   return (
-    <div className="flex h-full">
+    <div className="flex flex-col lg:flex-row h-full">
       <Sidebar />
       <Hero />
     </div>

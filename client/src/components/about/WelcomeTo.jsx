@@ -10,7 +10,7 @@ import img from "../../constants/photos/Img (1).png";
 
 const WelcomeTo = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 items-center font-ibm">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 box-border mb-5 items-center justify-center font-ibm">
       <div className="m-20">
         <h3 className="text-[0.925rem]/[1.275rem] italic font-semiBold">
           Nice to meet you!
@@ -29,8 +29,8 @@ const WelcomeTo = () => {
           <MdOutlineNorthEast className="bg-black text-white" />
         </button>
       </div>
-      <div className="mr-12 w-[35rem]">
-        <div className="grid grid-cols-2 gap-4">
+      <div className="lg:mr-12 mx-auto w-[35rem]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <span className="items-center inline-flex text-[0.956rem]/[1.275rem] font-bold italic">
             <div className="w-[40px] h-[40px] text-[20px] p-[10px] bg-gray text-black items-center justify-center rounded-full">
               <MdOutlineVoicemail />
@@ -58,9 +58,9 @@ const WelcomeTo = () => {
         </div>
         <div className=" w-full my-6 border-t border-[1px] border-black  border-opacity-10"></div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div>
-            <div className="flex items-center">
+            <div className="flex items-center ">
               <h1 className="text-[2.55rem] text-center font-bold bg-gradient-to-l from-orange via-red to-purple bg-clip-text text-transparent [-letter-spacing: -5%]">
                 10+
               </h1>

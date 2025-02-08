@@ -17,15 +17,15 @@ import Sidebar from "../sidebar/Sidebar";
 
 const Works = () => {
   return (
-    <div className="flex h-full">
+    <div className="flex flex-col lg:flex-row h-full">
       <Sidebar />
-      <div className="basis-4/5 ml-60 font-ibm box-border p-[80px]">
+      <div className="flex-col font-ibm box-border p-[80px] lg:basis-4/5 lg:ml-60 px-10 py-20 flex">
         <span className="text-[0.956rem]/[1.275rem] italic font-semibold">
           Work
         </span>
-        <h1 className="text-[2.57rem]/[2.975rem] font-bold">RECENT PROJECT</h1>
-        <div className="grid grid-cols-2 gap-8">
-          <div className="flex items-center">
+        <h1 className="text-[2.57rem]/[2.975rem] font-bold mb-20">RECENT PROJECT</h1>
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+          <div className="flex flex-col sm:flex-row lg:flex-row items-center">
             <div>
               <span className="text-[0.975]/[1.275] italic font-semiBold">
                 UX case study
@@ -37,7 +37,7 @@ const Works = () => {
             </div>
             <img src={imgone} alt="one" />
           </div>
-          <div className="flex items-center">
+          <div className="flex flex-col sm:flex-row lg:flex-row items-center">
             <div>
               <span className="text-[0.975]/[1.275] italic font-semiBold">
                 UX case study
@@ -49,7 +49,7 @@ const Works = () => {
             </div>
             <img src={imgtwo} alt="two" />
           </div>
-          <div className="flex items-center">
+          <div className="flex flex-col sm:flex-row lg:flex-row items-center">
             <div>
               <span className="text-[0.975]/[1.275] italic font-semiBold">
                 UX case study
@@ -61,7 +61,7 @@ const Works = () => {
             </div>
             <img src={imgthree} alt="three" />
           </div>
-          <div className="flex items-center">
+          <div className="flex flex-col sm:flex-row lg:flex-row items-center">
             <div>
               <span className="text-[0.975]/[1.275] italic font-semiBold">
                 UX case study
@@ -74,7 +74,7 @@ const Works = () => {
             <img src={imgfour} alt="four" />
           </div>
         </div>
-        <div className="flex justify-center m-10 items-center ">
+        <div className="flex justify-center m-10 mb-20 items-center ">
           <button className="flex w-[10.5rem] bg-black text-white box-border py-[0.9rem] px-[2rem] items-center">
             Load more
             <MdOutlineNorthEast className="bg-gradient-to-l from-orange via-red to-purple" />
@@ -88,7 +88,7 @@ const Works = () => {
           <h1 className="text-[2.57rem]/[2.975rem] italic font-bold">
             WHAT THEY SAYS
           </h1>
-          <div className="grid grid-cols-2 items-center mb-0">
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-center mb-0">
             <img src={imgfive} alt="image" />
             <div className="grid grid-cols-1 gap-10">
               <p className="text-[1.7rem]/[2.125rem] font-bold">

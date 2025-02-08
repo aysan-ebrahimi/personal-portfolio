@@ -3,7 +3,7 @@ import { MdOutlineNorthEast } from "react-icons/md";
 
 const MyExprience = () => {
   return (
-    <div className="font-ibm text-white ml-0 pl-0 grid grid-cols-2 gap-4 bg-gradient-to-l from-orange via-red to-purple">
+    <div className="font-ibm text-white ml-0 pl-0 grid lg:grid-cols-2 grid-cols-1 gap-4 bg-gradient-to-l from-orange via-red to-purple">
       <div className="grid grid-cols-1 gap-[40px] box-border p-12 content-center">
         <h3 className="text-[0.956rem]/[1.275rem] italic font-semiBold ">
           Experience

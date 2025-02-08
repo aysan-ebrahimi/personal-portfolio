@@ -8,18 +8,16 @@ import imgthree from "../../constants/photos/Img (8).png";
 
 const Blogs = () => {
   return (
-    <div className=" flex h-full ">
+    <div className=" flex flex-col lg:flex-row h-full ">
       <Sidebar />
-      <div className="basis-4/5 ml-60 p-[80px] content-center font-ibm">
+      <div className="flex-col lg:basis-4/5 lg:ml-60 lg:p-8 px-10 py-20 flex items-center justify-center content-center font-ibm">
         <div className="text-center mt-4">
           <span className="text-[0.925rem]/[1.275rem] italic font-semiBold">
             blog
           </span>
-          <h1 
-          className="text-[2.55rem]/[2.975rem] font-bold"
-          >READ MY BLOG</h1>
+          <h1 className="text-[2.55rem]/[2.975rem] font-bold">READ MY BLOG</h1>
         </div>
-        <div className="grid grid-cols-3 gap-5 m-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5 m-10">
           <div className="m-10">
             <img src={imgone} alt="first" />
             <span className="text-[0.925rem]/[1.275rem] italic font-semiBold">
@@ -42,8 +40,7 @@ const Blogs = () => {
           </div>
           <div className="m-10">
             <img src={imgthree} alt="third" />
-            <span 
-            className="text-[0.925rem]/[1.275rem] italic font-semiBold">
+            <span className="text-[0.925rem]/[1.275rem] italic font-semiBold">
               10 July, 2022
             </span>
             <p className="text-[1.275rem]/[1.594rem] font-bold">

@@ -4,10 +4,10 @@ import ProjectForm from "./ProjectForm";
 
 const Contact = () => {
   return (
-    <div className="h-full flex">
+    <div className="flex flex-col lg:flex-row h-full">
       <Sidebar />
-      <div className="basis-4/5 ml-60 grid grid-cols-2 px-[80px] py-[200px] content-center">
-        <div className="font-imb space-y-8">
+      <div className="lg:basis-4/5 lg:ml-60 lg:p-8 px-10 py-20 items-center justify-center grid lg:grid-cols-2 grid-cols-1 lg:px-[80px] lg:py-[200px] content-center">
+        <div className="font-imb space-y-8 mb-8 lg:text-left text-center">
           <div>
             <span className="font-semiBold text-[0.956rem]/[1.275rem] italic">
               Contact
@@ -28,11 +28,11 @@ const Contact = () => {
               jacob360@gmail.com
             </span>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 justify-center lg:justify-start">
             <span className="text-[0.85rem]/[1.275rem]">FACEBOOK</span>
             <span className="text-[0.85rem]/[1.275rem]">TWITTER</span>
             <span className="text-[0.85rem]/[1.275rem]">INSTAGRAM</span>
-            <span className="text-[0.85rem]/[1.275rem]">LINKEDIN</span>
+            <span className=" text-[0.85rem]/[1.275rem]">LINKEDIN</span>
           </div>
         </div>
         <ProjectForm />
